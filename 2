@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class w42 
+{
+	public static void main(String[] args) 
+	{
+		Scanner number=new Scanner(System.in);
+		System.out.print("Water = ");
+		int pay,unitpay1,unitpay2,unitpay3;
+
+		int unit=number.nextInt();
+
+		if (unit<10)
+		{
+			pay=unit*5;
+		} else if (unit<=20)
+		{
+			unitpay1=unit%10;
+			unitpay2=unit-unitpay1;
+			pay= (unitpay1*15) + (unitpay2*8);
+		} else
+		{
+			unitpay1=(unit-unit+10)*10;
+			unitpay2=(unit-unit+10)*20;
+			unitpay3=(unit-20)*50;
+			pay= unitpay1+unitpay2+unitpay3;
+		}
+
+		System.out.println("Pay "+pay);
+	}
+}

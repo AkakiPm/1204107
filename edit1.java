@@ -13,25 +13,25 @@ class w43
 		if (glass.equals("S") || glass.equals("s") )
 		{
 			double water = 8.25*0.75;
-			int payglass = 1;
+			double payglass = 1;
 			double sum=water+payglass;
 			System.out.println("Pay Glass = "+payglass+"\nPay Water = "+water+"\nPay Sum = "+sum);
 		} else if (glass.equals("M") || glass.equals("m"))
 		{
 			double water = 8.25*1;
-			int payglass = 1.5;
+			double payglass = 1.5;
 			double sum=water+payglass;
 			System.out.println("Pay Glass = "+payglass+"\nPay Water = "+water+"\nPay Sum = "+sum);
 		} else if (glass.equals("L") || glass.equals("l"))
 		{
 			double water = 8.25*1.5;
-			int payglass = 1.75;
+			double payglass = 1.75;
 			double sum=water+payglass;
 			System.out.println("Pay Glass = "+payglass+"\nPay Water = "+water+"\nPay Sum = "+sum);
 		} else if (glass.equals("J") || glass.equals("j"))
 		{
 			double water = 8.25*2.5;
-			int payglass = 2.50;
+			double payglass = 2.50;
 			double sum=water+payglass;
 			System.out.println("Pay Glass = "+payglass+"\nPay Water = "+water+"\nPay Sum = "+sum);
 		}
